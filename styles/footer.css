@@ -1,7 +1,7 @@
-.bottom__section__grid {
+.footer__section {
+  display: block;
   width: 100%;
-  background-color: #e7e5e4;
-  height: 528.47px;
-  margin-top: 6px;
-}
+  height: 509.47px;
+  background-color: black;
 
+}

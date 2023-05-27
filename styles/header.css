@@ -7,14 +7,18 @@
   flex-direction: column;
   justify-content: start;
   width: 100%;
-  height: 100%;
+  height: 727px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.top__scanner__content {
+  margin-top: 130px;
 }
 
 .top__logo__description {
   display: block;
   width: 100%;
-  height: 250px;
+  height: 150px;
 }
 
 .home__logo__box {
@@ -23,15 +27,15 @@
   align-items: center;
   margin: 40px auto 0px auto;
   width: 170px;
-  height: 90px;
+  height: 80px;
   border-radius: 18px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(70, 2, 2, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .logo-text {
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 900;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: rgb(202, 49, 49);
 }
 
@@ -50,7 +54,7 @@
 }
 .website__title {
   display: block;
-  margin: 25px auto;
+  margin: 10px auto;
   text-align: center;
   color: rgb(202, 49, 49);
 }
@@ -90,13 +94,51 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 40px auto;
+  margin: 10px auto;
 }
 
 .scanner__image {
   width: 180px;
   height: 181px;
 }
+
+.top__bottom__title {
+  color: rgb(202, 49, 49);
+  margin: 15px auto;
+  text-decoration: underline;
+}
+
+.top__bottom__title:hover {
+  opacity: 0.8;
+}
+
+/* Tap the Button and Scan Text */
+
+.tap__button {
+  box-sizing: border-box;
+  color: rgb(202, 49, 49);
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 25px;
+  line-height: 25px;
+
+}
+
+.tap_button_special-font {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+
+
+}
+
+
+
+
+
+
+
 
 
 
