@@ -139,7 +139,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 11px;
     font-weight: 500;
     font-family: 'inter';
     text-transform: uppercase;
@@ -153,7 +153,6 @@
     cursor: pointer;
     outline: none;
     padding: 8px 12px;
-    max-width: 375px;
   }
   
   .button:hover {
