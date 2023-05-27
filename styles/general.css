@@ -21,6 +21,11 @@ svg {
   user-select: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   font-family: 'inter' Arial, Helvetica, sans-serif;
 }
