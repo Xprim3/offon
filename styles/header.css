@@ -141,122 +141,48 @@
 
 
 
-
-
 /* Small Devices */
 @media (min-width: 320px) {
-
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px;
-    font-weight: 500;
-    font-family: 'inter';
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: black;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    padding: 8px 12px;
+  .container {
     max-width: 320px;
-  }
-  
-  .button:hover {
-    background-color: rgb(202, 49, 49);
-    box-shadow: 0px 15px 20px rgba(129, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-3px);
   }
 }
 
 /* Medium Devices */
 @media (min-width: 375px) {
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px;
-    font-weight: 500;
-    font-family: 'inter';
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: black;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    padding: 8px 12px;
-  }
-  
-  .button:hover {
-    background-color: rgb(202, 49, 49);
-    box-shadow: 0px 15px 20px rgba(129, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-3px);
+  .container {
+    max-width: 375px;
   }
 }
 
 /* Large Devices */
 @media (min-width: 425px) {
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'inter';
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: black;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-    padding: 8px 12px;
+  .container {
     max-width: 425px;
-  }
-  
-  .button:hover {
-    background-color: rgb(202, 49, 49);
-    box-shadow: 0px 15px 20px rgba(129, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-3px);
   }
 }
 
 /* Extra Large Devices */
 @media (min-width: 768px) {
-  .button {
-    font-size: 20px;
+  .container {
     max-width: 768px;
-  }
-
-  .scanner__box {
-    margin-top: 80px;
   }
 }
 
 /* 2xL Devices */
 @media (min-width: 1024px) {
-  .home__logo__box {
-    width: 220px;
-    height: 90px;
-
-  }
-  .website__title {
-    font-size: 20px;
+  .container {
     max-width: 1024px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
