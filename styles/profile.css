@@ -1,18 +1,18 @@
 .website__body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: start;
   max-width: 1024px;
-  height: 844px;
+  height: 100%;
   position: relative;
   margin: 0px auto;
 }
 
 .top__profile__image__box {
   display: block;
-  width: 100%;
-  max-height: 162px;
-  z-index: 25;
+  max-width: 1024px;
+  max-height: 409.59px;
 }
 
 .top__profile__images {
@@ -39,6 +39,7 @@
   height: 40px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .profile__titles {
@@ -63,18 +64,15 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: auto;
+  height: 100%;
   justify-content: left;
   align-items: center;
   gap: 15px;
-
-
 }
 
 .location__box {
   display: flex;
   flex-direction: row;
-  margin-top: 15px;
   height: 17px;
   justify-content: left;
 }
@@ -82,10 +80,8 @@
 .location__text {
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
   font-family: 'inter'Arial, Helvetica, sans-serif;
   font-size: 12px;
-  height: 100%;
   color: rgb(152, 152, 152);
   text-decoration-color: rgb(152, 152, 152);
   text-decoration-line: none;
@@ -166,6 +162,7 @@
   height: auto;
   list-style-type: none;
   row-gap: 25px;
+  overflow: auto;
 }
 
 .product__image__box {
