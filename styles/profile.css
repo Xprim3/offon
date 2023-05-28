@@ -51,12 +51,26 @@
 .main__content__menu {
   display: flex;
   flex-direction: row;
+  justify-content: start;
   flex-wrap: wrap;
   max-width: 1024px;
   height: auto;
   list-style-type: none;
-  padding-top: 25px;
   gap: 7px;
+  padding: 15px 15px;
+  margin-top: 28px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+}
+
+.menu__box {
+  display: block;
+  width: 100%;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .menu__button__mod {
