@@ -5,34 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Client Profile</title>
- 
-
 
 </head>
 <body>
 
   <section class="website__body">
-    <div class="top__profile__image__box"></div>
-    <img class="top__profile__images" src="media/profile/yummy profile.jpg">
+    <div class="top__profile__image__box">
+      <img class="top__profile__images" src="media/profile/yummy profile.jpg">
+    </div>
       <nav class="main__content__box">
         <div class="profile__button__box">
           <h1 class="profile__titles">Yummy.Pita</h1>
           <button class="ankesa__button">Ankesa</button>
         </div>
-        <div class="location__phone__wifi">
-          <span class="location__box">
-            <img class="location__svg" src="media/icons/location svg.svg">
-            <a href="https://www.google.com/maps?q=Ferizaj,+Kosovo" target="_blank" class="location__text">Ferizaj, Kosovo</a>
+        <div class="location__wifi__phone__box">
+          <span class="svg__text__box">
+            <img class="svg__mod" src="media/icons/location svg.svg">
+            <a href="#" target="_blank" class="location__wifi__phone__text">Kosova, Ferizaj</a>
           </span>
-          <span class="location__box">
-            <img class="location__svg" src="media/icons/phone.svg">
-            <a href="tel:048600036" target="_blank" class="location__text">048600036</a>
+          <span class="svg__text__box">
+            <img class="svg__mod" src="media/icons/phone.svg">
+            <a href="#" target="_blank" class="location__wifi__phone__text">049106065</a>
           </span>
-          <span class="location__box">
-            <img class="location__svg" src="media/icons/wifi.svg">
-            <a href="tel:048600036" target="_blank" class="location__text">12345678</a>
+          <span class="svg__text__box">
+            <img class="svg__mod" src="media/icons/wifi.svg">
+            <a href="#" target="_blank" class="location__wifi__phone__text">12345678</a>
           </span>
-        </div>
+        </div> 
         <ul class="main__content__menu">
           <li class="menu__button__mod">Ushqim</li>
           <li class="menu__button__mod">Pijet</li>
@@ -41,9 +40,10 @@
           <li class="menu__button__mod">Ofertat</li>
         </ul>
       </nav>
-      <main class="main__products__contents">
-        <!--Categoria e par kjo duhet mandej mu shtu sipas klientave dhe mu bo rename-->
-        <h1 class="category__title">Caffe</h1>
+      
+      <!--Categoria e par kjo duhet mandej mu shtu sipas klientave dhe mu bo rename-->
+      <div class="menu__category">
+        <h1 class="category__title">Ushqime</h1>
         <ul class="products__box">
           <li class="product__id">
             <img class="product__img__mod" src="media/products/_20210521150504.0_bocellicoffee.jpg">
@@ -74,78 +74,88 @@
                 <p class="product__price__text">1.47</p>
               </span>
             </div>
-          </li>
+          </li>         
+        </ul>
+        <span class="line__only"></span>
+      </div>
+      <div class="menu__category">
+        <h1 class="category__title">Desert</h1>
+        <ul class="products__box">
           <li class="product__id">
-            <img class="product__img__mod" src="media/products/sambuca kaffe.jpg">
+            <img class="product__img__mod" src="media/products/_20210521150504.0_bocellicoffee.jpg">
             <div class="product__title_content__box">
               <h5 class="product__title__text">Morricone Café</h5>
               <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
               <span class="product__price__symbol">Euro
-                <p class="product__price__text">1.38</p>
+                <p class="product__price__text">1.25</p>
               </span>
             </div>
           </li>
           <li class="product__id">
-            <img class="product__img__mod" src="media/products/caffe moka.jpg">
+            <img class="product__img__mod" src="media/products/cacao vogel.jpg">
             <div class="product__title_content__box">
               <h5 class="product__title__text">Morricone Café</h5>
               <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
               <span class="product__price__symbol">Euro
-                <p class="product__price__text">2.60</p>
+                <p class="product__price__text">1.65</p>
               </span>
             </div>
           </li>
           <li class="product__id">
-            <img class="product__img__mod" src="media/products/_20210518100231.0_freddocino.png">
+            <img class="product__img__mod" src="media/products/caffe late.jpg">
             <div class="product__title_content__box">
               <h5 class="product__title__text">Morricone Café</h5>
               <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
               <span class="product__price__symbol">Euro
-                <p class="product__price__text">3.45</p>
+                <p class="product__price__text">1.47</p>
               </span>
             </div>
-          </li>
-          <li class="product__id">
-            <img class="product__img__mod" src="media/products/_20210521160739.0_Bethoven ice chocolate.jpg">
-            <div class="product__title_content__box">
-              <h5 class="product__title__text">Morricone Café</h5>
-              <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
-              <span class="product__price__symbol">Euro
-                <p class="product__price__text">6.5</p>
-              </span>
-            </div>
-          </li>
-          <li class="product__id">
-            <img class="product__img__mod" src="media/products/_20210518102352.0_cokollate e ftohte.png">
-            <div class="product__title_content__box">
-              <h5 class="product__title__text">Morricone Café</h5>
-              <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
-              <span class="product__price__symbol">USD
-                <p class="product__price__text">15</p>
-              </span>
-            </div>
-          </li>
-          <li class="product__id">
-            <img class="product__img__mod" src="media/products/_20210518100336.0_Frappe.jpg">
-            <div class="product__title_content__box">
-              <h5 class="product__title__text">Morricone Café</h5>
-              <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
-              <span class="product__price__symbol">USD
-                <p class="product__price__text">15</p>
-              </span>
-            </div>
-          </li>
+          </li>         
         </ul>
         <!--End-->
         <span class="line__only"></span>
-
-
-      </main>
+      </div>
+      <div class="menu__category">
+        <!--Categoria e par kjo duhet mandej mu shtu sipas klientave dhe mu bo rename-->
+        <h1 class="category__title">Pijet</h1>
+        <ul class="products__box">
+          <li class="product__id">
+            <img class="product__img__mod" src="media/products/_20210521150504.0_bocellicoffee.jpg">
+            <div class="product__title_content__box">
+              <h5 class="product__title__text">Morricone Café</h5>
+              <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
+              <span class="product__price__symbol">Euro
+                <p class="product__price__text">1.25</p>
+              </span>
+            </div>
+          </li>
+          <li class="product__id">
+            <img class="product__img__mod" src="media/products/cacao vogel.jpg">
+            <div class="product__title_content__box">
+              <h5 class="product__title__text">Morricone Café</h5>
+              <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
+              <span class="product__price__symbol">Euro
+                <p class="product__price__text">1.65</p>
+              </span>
+            </div>
+          </li>
+          <li class="product__id">
+            <img class="product__img__mod" src="media/products/caffe late.jpg">
+            <div class="product__title_content__box">
+              <h5 class="product__title__text">Morricone Café</h5>
+              <p class="product__description__text">Kafe; bourbon wild turkey; disaronno; qumesht</p>
+              <span class="product__price__symbol">Euro
+                <p class="product__price__text">1.47</p>
+              </span>
+            </div>
+          </li>         
+        </ul>
+        <!--End-->
+        <span class="line__only"></span>
+      </div>
+      <!-- End -->
+      
   </section>
-
-
-
-
 
 
 
