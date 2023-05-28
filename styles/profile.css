@@ -42,6 +42,29 @@
   font-size: 20px;
 }
 
+/* Admin Panel */
+.place__title__actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 84px;
+  height: 100%;
+  justify-items: center;
+}
+
+#admin__panel {
+  display: inline-block; 
+  visibility: visible; /* Activizon Admin Panel Buttonat */
+}
+#click1,
+#click2,
+#click3 {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 5px;
+}
+/* End */
+
 .ankesa__button {
   padding: 1px 5px 1px 5px;
   margin-right: 5px;
@@ -118,7 +141,7 @@
   width: auto;
   height: 17px;
   cursor: pointer;
-
+  line-height: 17px;
 }
 .svg__mod {
   display: inline-block;
