@@ -164,10 +164,10 @@
   width: 50px;
   height: 23px;
   justify-content: start;
-  background-color: rgb(222, 222, 222);
+  background-color:rgb(247, 144, 108);
   margin-left: 8px;
   gap: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .category__edit__button {
@@ -196,7 +196,7 @@
 }
 
 .svg__product__add__mod {
-  background-color: rgb(230, 230, 230);
+  background-color:transparent;
   border-radius: 18px;
   color: black;
   cursor: pointer;
