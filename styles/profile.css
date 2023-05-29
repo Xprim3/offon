@@ -196,7 +196,7 @@
   justify-content: start;
   padding-left: 10px;
   flex-direction: column;
-  width: 100%;
+  width: auto;
   height: auto;
   box-sizing: border-box;
   
