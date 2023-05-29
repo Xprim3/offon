@@ -24,7 +24,6 @@
   width: 100%;
   height: auto;
   padding: 10px;
-  padding: 10px;
 }
 
 .profile__button__box {
@@ -58,7 +57,7 @@
 .main__content__menu {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   overflow: auto;
   max-width: 1024px;
@@ -66,10 +65,21 @@
   list-style-type: none;
   gap: 7px;
   border:  1px solid;
-  height: 90px;
-  margin-top: 28px;
+  height: 50px;
+  margin-top: 8px;
   background-color: white;
   border-radius: 10px;
+}
+
+.category__menu_add {
+  display: block;
+  background-color: rgb(247, 144, 108);
+  padding: 4px 10px 4px 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  margin-left: 5px;
+  
 }
 
 /* Location, Phone and Wifi Box and Styling */
@@ -157,7 +167,6 @@
   height: auto;
   list-style-type: none;
   row-gap: 25px;
-  overflow: auto;
   background-color: white;
 }
 

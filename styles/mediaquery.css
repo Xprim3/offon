@@ -60,7 +60,7 @@
   .main__content__menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     overflow: auto;
     max-width: 1024px;
@@ -68,8 +68,8 @@
     list-style-type: none;
     gap: 7px;
     border:  1px solid;
-    height: 90px;
-    margin-top: 28px;
+    height: 50px;
+    margin-top: 8px;
     background-color: white;
     border-radius: 10px;
   }
@@ -423,7 +423,7 @@
   .main__content__menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     overflow: auto;
     max-width: 1024px;
@@ -431,8 +431,8 @@
     list-style-type: none;
     gap: 7px;
     border:  1px solid;
-    height: 90px;
-    margin-top: 28px;
+    height: 50px;
+    margin-top: 8px;
     background-color: white;
     border-radius: 10px;
   }
@@ -786,7 +786,7 @@
   .main__content__menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     overflow: auto;
     max-width: 1024px;
@@ -794,8 +794,8 @@
     list-style-type: none;
     gap: 7px;
     border:  1px solid;
-    height: 90px;
-    margin-top: 28px;
+    height: 50px;
+    margin-top: 8px;
     background-color: white;
     border-radius: 10px;
   }
@@ -1149,7 +1149,7 @@
   .main__content__menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     overflow: auto;
     max-width: 1024px;
@@ -1157,8 +1157,8 @@
     list-style-type: none;
     gap: 7px;
     border:  1px solid;
-    height: 90px;
-    margin-top: 28px;
+    height: 50px;
+    margin-top: 8px;
     background-color: white;
     border-radius: 10px;
   }
@@ -1513,7 +1513,7 @@
   .main__content__menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     overflow: auto;
     max-width: 1024px;
@@ -1521,8 +1521,8 @@
     list-style-type: none;
     gap: 7px;
     border:  1px solid;
-    height: 90px;
-    margin-top: 28px;
+    height: 50px;
+    margin-top: 8px;
     background-color: white;
     border-radius: 10px;
   }
@@ -1878,7 +1878,7 @@
   .main__content__menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     overflow: auto;
     max-width: 1024px;
@@ -1886,8 +1886,8 @@
     list-style-type: none;
     gap: 7px;
     border:  1px solid;
-    height: 90px;
-    margin-top: 28px;
+    height: 50px;
+    margin-top: 8px;
     background-color: white;
     border-radius: 10px;
   }
