@@ -158,6 +158,7 @@
   list-style-type: none;
   row-gap: 25px;
   overflow: auto;
+  background-color: white;
 }
 
 .product__image__box {
@@ -230,6 +231,7 @@
   width: 100%; 
   height: 100%;
   align-items: center;
+  padding-top: 8px;
 }
 
 .product__price__symbol {
