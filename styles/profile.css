@@ -42,29 +42,6 @@
   font-size: 20px;
 }
 
-/* Admin Panel top Buttons */
-.place__title__actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  width: 84px;
-  height: 100%;
-  justify-items: center;
-}
-
-#admin__panel {
-  display: inline-block; 
-  visibility: visible; /* Activizon Admin Panel Buttonat */
-}
-#click1,
-#click2,
-#click3 {
-  cursor: pointer;
-  display: inline-block;
-  margin-left: 5px;
-}
-/* End */
-
 .ankesa__button {
   padding: 1px 5px 1px 5px;
   margin-right: 5px;
@@ -94,10 +71,6 @@
   background-color: white;
   border-radius: 10px;
 }
-
-
-
-
 
 /* Location, Phone and Wifi Box and Styling */
 
@@ -146,63 +119,17 @@
   display: block;
   width: 100%;
   height: 100%;
-  padding: 10px 10px 10px 10px
+  padding: 10px 10px 10px 10px;
 }
 
-/* Category Admin Panel */
-
-.category__admin__panel {
+.category__content__title__box {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 23px;
+  height: 24px;
   margin-bottom: 30px;
+  padding: 0px 10px;
 }
-
-.category__admin__panel__box {
-  display: flex;
-  width: 50px;
-  height: 23px;
-  justify-content: start;
-  background-color:rgb(247, 144, 108);
-  margin-left: 8px;
-  gap: 5px;
-  border-radius: 5px;
-}
-
-.category__edit__button {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-}
-
-#category__admin__panel__fade {
-  visibility: visible; 
-}
-
-#click4 {
-  cursor: pointer;
-  height: 100%;
-  margin-left: 5px;
-}
-
-.category__add__product__box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  font-size: 9px;
-}
-
-.svg__product__add__mod {
-  background-color:transparent;
-  border-radius: 18px;
-  color: black;
-  cursor: pointer;
-}
-
-/* End */
 
 .category__title {
   box-sizing: border-box;
@@ -210,15 +137,17 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  margin-bottom: 30px;
   height: 100%;
 }
+
+
+
 .line__only {
   display: block;
   width: 100%;
   height: 1px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border-top: solid;
   border-width: 1px;
   border-color: rgb(220, 220, 220);
