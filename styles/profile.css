@@ -161,14 +161,17 @@
 
 .category__admin__panel__box {
   display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: space-between;
-  align-items: center;
+  width: 50px;
+  height: 23px;
+  justify-content: start;
+  background-color: rgb(222, 222, 222);
+  margin-left: 8px;
+  gap: 5px;
+  border-radius: 10px;
 }
 
 .category__edit__button {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
 }
@@ -198,10 +201,6 @@
   color: black;
   cursor: pointer;
 }
-
-
-
-
 
 /* End */
 
