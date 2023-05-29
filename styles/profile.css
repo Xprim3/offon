@@ -912,7 +912,7 @@
     display: grid;
     grid-template-columns: 75px 1fr;
     grid-template-rows: 1fr;
-    width: 324px;
+    width: 100%;
     height: 80px;
     justify-items: center;
     align-items: center;
@@ -1276,6 +1276,7 @@
     height: auto;
     list-style-type: none;
     row-gap: 25px;
+    column-gap: 60px;
     overflow: auto;
   }
   
@@ -1639,6 +1640,7 @@
     height: auto;
     list-style-type: none;
     row-gap: 25px;
+    column-gap: 0px;
     overflow: auto;
   }
   
