@@ -42,7 +42,7 @@
   font-size: 20px;
 }
 
-/* Admin Panel */
+/* Admin Panel top Buttons */
 .place__title__actions {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -81,43 +81,23 @@
 .main__content__menu {
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
   max-width: 1024px;
   height: auto;
   list-style-type: none;
   gap: 7px;
-  padding: 15px 15px;
+  border:  1px solid;
+  height: 90px;
   margin-top: 28px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.menu__box {
-  display: block;
-  width: 100%;
-  padding-bottom: 10px;
-  font-size: 13px;
-  font-weight: 400;
-}
 
-.menu__button__mod {
-  box-sizing: border-box;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 400;
-  font-stretch: 100%;
-  padding: 2px 8px 2px 8px;
-  color: black;
-  outline-style: solid;
-  outline-width: 0.1px;
-  outline-color: rgb(197, 197, 197);
-  background-color: rgb(230, 230, 230);
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-}
+
+
 
 /* Location, Phone and Wifi Box and Styling */
 
@@ -169,16 +149,70 @@
   padding: 10px 10px 10px 10px
 }
 
+/* Category Admin Panel */
+
+.category__admin__panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 23px;
+  margin-bottom: 30px;
+}
+
+.category__admin__panel__box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category__edit__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#category__admin__panel__fade {
+  visibility: visible; 
+}
+
+#click4 {
+  cursor: pointer;
+  height: 100%;
+  margin-left: 5px;
+}
+
+.category__add__product__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 9px;
+}
+
+.svg__product__add__mod {
+  background-color: rgb(230, 230, 230);
+  border-radius: 18px;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+
+
+/* End */
+
 .category__title {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  max-width: 1024px;
+  display: inline-block;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  height: auto;
   margin-bottom: 30px;
+  height: 100%;
 }
 .line__only {
   display: block;
