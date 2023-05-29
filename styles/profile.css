@@ -124,11 +124,9 @@
 
 .category__content__title__box {
   display: flex;
-  flex-direction: row;
   width: 100%;
   height: 24px;
   margin-bottom: 30px;
-  padding: 0px 10px;
 }
 
 .category__title {
@@ -140,14 +138,12 @@
   height: 100%;
 }
 
-
-
 .line__only {
   display: block;
   width: 100%;
   height: 1px;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-top: solid;
   border-width: 1px;
   border-color: rgb(220, 220, 220);
@@ -160,8 +156,8 @@
   width: 100%;
   height: auto;
   list-style-type: none;
+  row-gap: 25px;
   overflow: auto;
-  
 }
 
 .product__image__box {
@@ -176,12 +172,11 @@
   display: grid;
   grid-template-columns: 75px 1fr;
   grid-template-rows: 1fr;
-  width: 334px;
+  width: 324px;
   height: 80px;
   justify-items: center;
   align-items: center;
   padding-left: 10px;
-  margin-bottom: 10px;
 }
 
 .product__img__mod {
@@ -196,7 +191,7 @@
   justify-content: start;
   padding-left: 10px;
   flex-direction: column;
-  width: auto;
+  width: 100%;
   height: auto;
   box-sizing: border-box;
   
@@ -378,6 +373,82 @@
 
 
 
+/* Extra Small Devices */
+@media (min-width: 320px) {
+  .cons {
+    max-width: 320px
 
+  }
+
+}
+
+/* Small Devices */
+@media (min-width: 375px) {
+  .product__id {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+    padding-left: 10px;
+    max-width: 375px
+  }
+  
+}
+
+/* Medium Devices */
+@media (min-width: 425px) {
+  .product__id {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+    padding-left: 10px;
+    max-width: 425px
+  }
+  
+}
+
+/* Large Devices */
+@media (min-width: 768px) {
+  .product__id {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 1fr;
+    width: 50%;
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+    padding-left: 10px;
+    max-width: 768px
+  }
+  
+}
+
+/* Extra Large Devices */
+@media (min-width: 1024px) {
+  .product__id {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 1fr;
+    width: 33%;
+    height: 80px;
+    justify-items: center;
+    align-items: center;
+    padding-left: 10px;
+    max-width: 768px
+  }
+  
+}
+
+/* 2xL Devices */
+@media (min-width: 1536px) {
+  
+}
 
 
