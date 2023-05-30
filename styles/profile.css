@@ -216,6 +216,7 @@
   width: 100%;
   height: 100%;
   padding: 10px 10px 10px 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .category__content__title__box {
@@ -223,6 +224,7 @@
   width: 100%;
   height: 24px;
   margin-bottom: 30px;
+  padding: 20px 0px;
 }
 
 .category__title {
@@ -289,9 +291,24 @@
   width: 100%;
   height: auto;
   box-sizing: border-box;
-  
-
+  position: relative;
 }
+
+.content__admin__panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 90px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
 
 .product__title__text {
   display: block;
@@ -370,15 +387,32 @@
   background-color: transparent;
   border: none;
   padding: 6px;
-  cursor: pointer;
   text-align: center;
   outline: none;
+  cursor: pointer;
+
 }
+
+.input__box__mod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  padding: 6px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
 .qty-input {
   font-weight: 500;
   font-size: 14px;
   padding: 6px 2px;
   text-align: center;
+
 }
 
 
