@@ -4,4 +4,5 @@ import '../styles/header.css';
 import '../styles/footer.css';
 import '../styles/profile.css';
 import '../styles/admin.css';
+import '../styles/mediaquery.css';
 
